@@ -1,0 +1,749 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Outfit", sans-serif
+}
+
+a{
+    text-decoration: none;
+    color: peru;
+}
+
+.container{
+    position: relative;
+    height: 100vh;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12vh;
+    width: 100%;
+    box-shadow: #c3c3c3 0px 7px 29px 0px;
+    background-color: #c3c3c3;
+    z-index: 1000;
+}
+
+header #logo {
+    margin-left: 50px;
+}
+
+header #logo a{
+    text-decoration: none;
+    color: #800080;
+    font-size: 19px;
+    letter-spacing: .7rem;
+    transition: .7s;
+}
+
+header #logo a:hover{
+    color: blueviolet;
+}
+
+header nav{
+    margin-right: 50px;
+}
+
+header nav a{
+    padding-left: 10px;
+    text-decoration: none;
+    transition: .7s;
+}
+
+header nav a:hover{
+    color:red
+}
+
+header #search{
+    margin-right: 50px;
+}
+
+header input{
+    padding: 4px 12px;
+    border-radius: 8px;
+    border: 1px solid grey;
+    transition: .6s;
+}
+
+header input:focus{
+    outline: none;
+    padding: 4px 28px;
+}
+
+.container section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(13, 27, 19, 0.7)), url("images/pexels-pavel-danilyuk-7776896.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: inherit;
+}
+
+header .banner{
+    display: none;
+    margin-left: 50px;
+}
+
+
+section .content-1 h1{
+    color: #f3f3f3;
+    font-size: clamp(19.5px, 2.2vw, 50px);
+    text-transform: uppercase;
+    margin-bottom: 15px;
+
+}
+
+
+section .content-1 p{
+    color: #f3f3f3;
+    font-size: clamp(13px, 1.7vw, 32px);
+    font-style: italic;
+    text-align: center;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    gap: 3rem;
+}
+
+.but{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 9rem;
+    height: 7vh;
+    background-color: #fff;
+    border-radius: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: .8s;
+    background-position: right;
+}
+
+a.but{
+    color: #800080;
+}
+
+.but:hover{
+    background: linear-gradient(to right, green 50%, #fff 50%);
+    background-position: left;
+    background-size: 200% 100%;
+    scale: .8s;
+}
+
+.section-2{
+    height: 250vh;
+    background: #eeeeee
+}
+
+.ser{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.ser h1{
+    font-size: 30px;
+}
+
+.disc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    height: 25vh;
+    margin: 0 auto;
+}
+
+.disc p{
+    color: #777;
+    font-size: 	1.125rem;
+    line-height: 1.7;
+}
+
+
+.square{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 20px;
+    height: 80vh;
+}
+
+.boxx{
+    position: relative;
+    height: 80%;
+    background: #fff;
+    border-radius: 8px;
+    width: 25vw;
+    margin-top: 40px;
+    padding: 6px 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: .8s ease-in;
+}
+
+.boxx div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.boxx p{
+    font-size: 1.24rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 15px 0;
+}
+
+
+
+.boxx:hover{
+    margin-top: 15px;
+    scale: 0.9;
+}
+
+
+.fa-download{
+    font-size: 5rem;
+}
+
+.icon{
+    width: 200px;
+    /* position: absolute; */
+    font-size: 4rem;
+    /* top: 30%;
+    left: 20%; */
+    border-radius: 10px;
+
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 1000px){
+
+    nav{
+        display: none;
+    }
+
+    #search{
+        display: none;
+    }
+
+    header .banner{
+        display: block;
+        font-size: 20px;
+        margin-right: 50px;
+        cursor: pointer;
+    }
+
+    .square{
+        flex-direction: column;
+        border: 2px solid;
+        height: 200vh;
+    }
+
+    .square .boxx{
+        display: block;
+        width: 100%;
+        height: 70vh;
+    }
+
+    .section-2 .disc{
+        border: 2px solid;
+    }
+
+    .disc p{
+        font-size: 1.1rem;
+        text-align: justify;
+    }
+
+    .square .boxx{
+        height: 250px;
+        padding: 8px 12px;
+    }
+
+    .square .boxx .icon{
+        width:130px;
+    }
+
+}
+
+
+@media(max-width: 875px){
+
+    header #logo a{
+        font-size: 15px;
+        letter-spacing: .5rem;
+    }
+
+    
+    header .banner{
+        display: block;
+        margin-right: 50px;
+    }
+
+
+   section .content-1
+   {
+    width: 70%;
+    }
+
+    section .content-1 h1{
+        text-align: center;
+        font-size: 18px;
+        line-height: 1.5rem;
+        font-weight: bold;
+    }
+
+    section .content-1 p{
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    section .content-1 .but{
+        width: 5rem;
+        height: 3vh;
+    }
+
+    section .but{
+        font-size:9px ;
+    }
+
+    .ser h1{
+        font-size: 25px;
+    }
+
+    
+    .disc p{
+        font-size: 0.9rem;
+    }
+
+    .square{
+        border: 12px solid;
+    }
+    
+    .square .boxx{
+        height: 200px;
+        padding: 6px 10px;
+    }
+
+    .square .boxx p{
+        font-size: 0.8rem;
+    }
+
+    .square .icon{
+        width: 70px;
+     }
+
+
+
+
+}
+
+
+@media(max-width: 786px){
+
+    header #logo a{
+        font-size: 13px;
+    }
+
+    section .content-1
+    {
+     width: 70%;
+     }
+ 
+     section .content-1 h1{
+         text-align: center;
+         font-size: 15px;
+     }
+ 
+     section .content-1 p{
+         font-size: 11px;
+     }
+ 
+     section .content-1 .but{
+         width: 5rem;
+         height: 3vh;
+     }
+ 
+     section .but{
+         font-size:9px ;
+     }
+
+     .boxx{
+        height: 150px;
+     }
+
+     .square .boxx p{
+        font-size: 0.6rem;
+    }
+
+    .square .boxx .icon{
+        width: 110px;
+     }
+
+
+
+ 
+ 
+ 
+}
+@media (max-width: 600px){
+
+    
+    header #logo a{
+        font-size: 11px;
+    }
+
+
+section .content-1
+{
+ width: 70%;
+ }
+
+ section .content-1 h1{
+     text-align: center;
+     font-size: 13px;
+ }
+
+ section .content-1 p{
+     font-size: 9px;
+ }
+
+ section .content-1 .but{
+     width: 5rem;
+     height: 3vh;
+ }
+
+ section .but{
+     font-size:9px ;
+ }
+
+
+
+}
+
+@media(max-width: 480px){
+
+    
+    header #logo a{
+        font-size: 10px;
+    }
+
+
+    header #logo{
+        font-size: ;
+    }
+
+    header .fa-burger{
+        font-size: 14px;
+    }
+
+    .disc p{
+        font-size: 0.7rem;
+    };
+
+    .boxx{
+        height: 80px;
+     }
+
+     .square .boxx p{
+        font-size: 0.5rem;
+    }
+
+    .square .boxx .icon{
+        width: 90px;
+     }
+
+}
+
+
+
+
+
+@media(max-width: 420px){
+
+    header .fa-burger{
+        font-size: 12px;
+    }
+
+    section .content-1
+{
+ width: 60%;
+ }
+
+ section .content-1 h1{
+     text-align: center;
+     font-size: 11px;
+ }
+
+ section .content-1 p{
+     font-size: 7px;
+ }
+
+ section .content-1 .but{
+     width: 5rem;
+     height: 3vh;
+     font-size:9px
+
+ }
+
+
+
