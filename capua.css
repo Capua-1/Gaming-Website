@@ -79,7 +79,7 @@ header input:focus{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(13, 27, 19, 0.7)), url("images/pexels-pavel-danilyuk-7776896.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(13, 27, 19, 0.7)), url("pexels-pavel-danilyuk-7776896.jpg");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
